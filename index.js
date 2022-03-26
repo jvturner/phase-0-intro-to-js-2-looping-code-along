@@ -45,26 +45,29 @@
 //     console.log(`I'm ${age} years old.  Happy birthday to me!`);
 //     }
 
-// let cards = ["Guadalupe", "Ollie", "Aki"]
-// let eventname = ["surprise"]
+const cards = ["Guadalupe", "Ollie", "Aki"]
+let eventName = ["surprise"]
 
-// function writeCards(cards, eventname) {
-
-//     for (let i = 0; i < cards.length; i++) {
-//         [`Thank you, ${cards[i]}, for the wonderful ${eventname} gift!"`]
-
-//     }
-//     // console.log(writeCards)
-
-
-function countDown(num) {
-    for (let countdown = 10; countdown > -1; countdown--) console.log(countdown);
+let newArray = [];
 
 
 
-    
+function writeCards(cards, eventName) {
+
+    for (let i = 0; i < cards.length; i++) {
+        [`Thank you, ${cards[i]}, for the wonderful ${eventName} gift!"`]
+    }
+    return newArray;
 }
+    
+
+console.log(newArray);
 
 
 
+    function countDown(num) {
+        for (let countdown = 10; countdown > -1; countdown--)
+            console.log(countdown);
+    }
+    
 
