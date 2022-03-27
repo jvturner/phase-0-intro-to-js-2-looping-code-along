@@ -16,7 +16,7 @@ function writeCards(cards, eventName) {
 }
     
 
-console.log(newArray);
+// console.log(newArray);
 
 
 
